@@ -1,0 +1,34 @@
+# 模型架构配置
+model:
+  # 图注意力网络(GAT)配置
+  gat_hidden_dim: 64        # 每个注意力头的隐藏维度
+  gat_num_heads: 4          # 多头注意力机制的头数
+  gat_num_layers: 2         # GAT层数
+  edge_dim: 3               # 边特征维度 (对应avg_duration/call_count/error_rate)
+  
+  # 时序卷积网络(TCN)配置
+  tcn_num_channels: [32, 64] # 各层通道数
+  tcn_kernel_size: 3         # 卷积核大小
+  tcn_dropout: 0.2           # Dropout概率
+  
+  # 分类器配置
+  num_classes: 2             # 输出类别数 (normal/anomaly)
+  fusion_hidden_dim: 128     # 特征融合层维度
+
+# 训练超参数
+training:
+  # 优化器参数
+  learning_rate: 1e-3        # 初始学习率 (建议范围: 1e-4到1e-2)
+  weight_decay: 1e-4         # L2正则化 (建议范围: 1e-5到1e-3)
+  
+  # 训练控制
+  batch_size: 32             # 每批数据量 (建议值: 16/32/64)
+  epochs: 50                 # 最大训练轮次
+  early_stopping_patience: 5 # 早停耐心值 (连续多少轮不提升停止)
+  
+  # 学习率调度
+  lr_patience: 3             # 学习率降低耐心值
+  lr_factor: 0.5             # 学习率衰减因子
+  
+  # 其他
+  log_interval: 10           # 每隔多少batch打印日志

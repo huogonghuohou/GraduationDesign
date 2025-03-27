@@ -1,0 +1,18 @@
+{
+  "total_traces": 8000,
+  "normal_ratio": 0.8,
+  "anomaly_distribution": {
+    "normal": 6400,
+    "timeout": 400,
+    "cascade_failure": 320,
+    "high_error_rate": 240,
+    "resource_exhaustion": 240,
+    "illegal_argument": 240,
+    "infinite_loop": 160
+  },
+  "log_level_distribution": {
+    "INFO": 11547,
+    "ERROR": 3156,
+    "WARN": 1289
+  }
+}

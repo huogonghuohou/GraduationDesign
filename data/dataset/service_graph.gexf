@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-03-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="11" title="avg_duration" type="double" />
+      <attribute id="12" title="call_count" type="long" />
+      <attribute id="13" title="error_rate" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="service_type" type="string" />
+      <attribute id="1" title="avg_cpu" type="double" />
+      <attribute id="2" title="avg_mem" type="double" />
+      <attribute id="3" title="service" type="string" />
+      <attribute id="4" title="avg_duration" type="double" />
+      <attribute id="5" title="max_duration" type="long" />
+      <attribute id="6" title="min_duration" type="long" />
+      <attribute id="7" title="error_rate" type="double" />
+      <attribute id="8" title="degree_centrality" type="double" />
+      <attribute id="9" title="betweenness_centrality" type="double" />
+      <attribute id="10" title="closeness_centrality" type="double" />
+    </attributes>
+    <nodes>
+      <node id="ts-order-service" label="ts-order-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="56.36232993978552" />
+          <attvalue for="2" value="20.492904423168667" />
+          <attvalue for="3" value="ts-order-service" />
+          <attvalue for="4" value="1332.7483380816714" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.07597340930674264" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-user-service" label="ts-user-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="49.243738962699254" />
+          <attvalue for="2" value="70.36701257638552" />
+          <attvalue for="3" value="ts-user-service" />
+          <attvalue for="4" value="1004.8262411347517" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.07712765957446809" />
+          <attvalue for="8" value="2.333333333333333" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-auth-service" label="ts-auth-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="48.90987683836459" />
+          <attvalue for="2" value="88.49929728510908" />
+          <attvalue for="3" value="ts-auth-service" />
+          <attvalue for="4" value="1247.664039408867" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.06798029556650247" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-ticket-service" label="ts-ticket-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="34.57310305927408" />
+          <attvalue for="2" value="63.642809310605486" />
+          <attvalue for="3" value="ts-ticket-service" />
+          <attvalue for="4" value="788.5383480825959" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.24262536873156343" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-station-service" label="ts-station-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="65.51840996982867" />
+          <attvalue for="2" value="63.97701087943103" />
+          <attvalue for="3" value="ts-station-service" />
+          <attvalue for="4" value="951.7849954254345" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.08325709057639524" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-payment-service" label="ts-payment-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="37.87520874718422" />
+          <attvalue for="2" value="57.95574545126186" />
+          <attvalue for="3" value="ts-payment-service" />
+          <attvalue for="4" value="966.5992578849722" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.06679035250463822" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ts-config-service" label="ts-config-service">
+        <attvalues>
+          <attvalue for="0" value="backend" />
+          <attvalue for="1" value="14.256064947577263" />
+          <attvalue for="2" value="67.64168902049202" />
+          <attvalue for="3" value="ts-config-service" />
+          <attvalue for="4" value="2016.517619420517" />
+          <attvalue for="5" value="30000" />
+          <attvalue for="6" value="100" />
+          <attvalue for="7" value="0.24432263116679717" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="1.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="ts-order-service" target="ts-auth-service" id="0" weight="0.6825775656324582">
+        <attvalues>
+          <attvalue for="11" value="642.1993006993007" />
+          <attvalue for="12" value="572" />
+          <attvalue for="13" value="0.06993006993006994" />
+        </attvalues>
+      </edge>
+      <edge source="ts-order-service" target="ts-config-service" id="1" weight="0.6205250596658711">
+        <attvalues>
+          <attvalue for="11" value="605.8538461538461" />
+          <attvalue for="12" value="520" />
+          <attvalue for="13" value="0.06153846153846154" />
+        </attvalues>
+      </edge>
+      <edge source="ts-order-service" target="ts-payment-service" id="2" weight="0.9809069212410502">
+        <attvalues>
+          <attvalue for="11" value="496.79075425790757" />
+          <attvalue for="12" value="822" />
+          <attvalue for="13" value="0.43309002433090027" />
+        </attvalues>
+      </edge>
+      <edge source="ts-order-service" target="ts-station-service" id="3" weight="0.8985680190930787">
+        <attvalues>
+          <attvalue for="11" value="492.96281540504646" />
+          <attvalue for="12" value="753" />
+          <attvalue for="13" value="0.3612217795484728" />
+        </attvalues>
+      </edge>
+      <edge source="ts-order-service" target="ts-ticket-service" id="4" weight="0.6241050119331742">
+        <attvalues>
+          <attvalue for="11" value="650.7782026768642" />
+          <attvalue for="12" value="523" />
+          <attvalue for="13" value="0.06309751434034416" />
+        </attvalues>
+      </edge>
+      <edge source="ts-order-service" target="ts-user-service" id="5" weight="0.6002386634844868">
+        <attvalues>
+          <attvalue for="11" value="564.5646123260437" />
+          <attvalue for="12" value="503" />
+          <attvalue for="13" value="0.05765407554671968" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-auth-service" id="6" weight="0.6205250596658711">
+        <attvalues>
+          <attvalue for="11" value="633.25" />
+          <attvalue for="12" value="520" />
+          <attvalue for="13" value="0.075" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-config-service" id="7" weight="0.5906921241050119">
+        <attvalues>
+          <attvalue for="11" value="593.9151515151515" />
+          <attvalue for="12" value="495" />
+          <attvalue for="13" value="0.05656565656565657" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-order-service" id="8" weight="0.6229116945107399">
+        <attvalues>
+          <attvalue for="11" value="621.3678160919541" />
+          <attvalue for="12" value="522" />
+          <attvalue for="13" value="0.04789272030651341" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-payment-service" id="9" weight="0.5918854415274463">
+        <attvalues>
+          <attvalue for="11" value="621.7620967741935" />
+          <attvalue for="12" value="496" />
+          <attvalue for="13" value="0.06854838709677419" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-station-service" id="10" weight="0.6348448687350835">
+        <attvalues>
+          <attvalue for="11" value="613.4266917293234" />
+          <attvalue for="12" value="532" />
+          <attvalue for="13" value="0.06578947368421052" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-ticket-service" id="11" weight="0.6467780429594272">
+        <attvalues>
+          <attvalue for="11" value="624.4704797047971" />
+          <attvalue for="12" value="542" />
+          <attvalue for="13" value="0.06457564575645756" />
+        </attvalues>
+      </edge>
+      <edge source="ts-user-service" target="ts-user-service" id="12" weight="0.3818615751789976">
+        <attvalues>
+          <attvalue for="11" value="30000.0" />
+          <attvalue for="12" value="320" />
+          <attvalue for="13" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-config-service" id="13" weight="0.6252983293556086">
+        <attvalues>
+          <attvalue for="11" value="669.2290076335878" />
+          <attvalue for="12" value="524" />
+          <attvalue for="13" value="0.07633587786259542" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-order-service" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="11" value="505.8400954653938" />
+          <attvalue for="12" value="838" />
+          <attvalue for="13" value="0.4295942720763723" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-payment-service" id="15" weight="0.639618138424821">
+        <attvalues>
+          <attvalue for="11" value="684.6940298507462" />
+          <attvalue for="12" value="536" />
+          <attvalue for="13" value="0.06902985074626866" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-station-service" id="16" weight="0.6503579952267303">
+        <attvalues>
+          <attvalue for="11" value="652.2752293577981" />
+          <attvalue for="12" value="545" />
+          <attvalue for="13" value="0.06972477064220184" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-ticket-service" id="17" weight="0.636038186157518">
+        <attvalues>
+          <attvalue for="11" value="678.7091932457786" />
+          <attvalue for="12" value="533" />
+          <attvalue for="13" value="0.058161350844277676" />
+        </attvalues>
+      </edge>
+      <edge source="ts-auth-service" target="ts-user-service" id="18" weight="0.6157517899761337">
+        <attvalues>
+          <attvalue for="11" value="663.7829457364342" />
+          <attvalue for="12" value="516" />
+          <attvalue for="13" value="0.060077519379844964" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-auth-service" id="19" weight="0.6801909307875895">
+        <attvalues>
+          <attvalue for="11" value="663.319298245614" />
+          <attvalue for="12" value="570" />
+          <attvalue for="13" value="0.054385964912280704" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-config-service" id="20" weight="0.6706443914081146">
+        <attvalues>
+          <attvalue for="11" value="625.2188612099644" />
+          <attvalue for="12" value="562" />
+          <attvalue for="13" value="0.07473309608540925" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-order-service" id="21" weight="0.616945107398568">
+        <attvalues>
+          <attvalue for="11" value="653.9032882011605" />
+          <attvalue for="12" value="517" />
+          <attvalue for="13" value="0.07156673114119923" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-payment-service" id="22" weight="0.6587112171837709">
+        <attvalues>
+          <attvalue for="11" value="646.9003623188406" />
+          <attvalue for="12" value="552" />
+          <attvalue for="13" value="0.07246376811594203" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-station-service" id="23" weight="0.5978520286396182">
+        <attvalues>
+          <attvalue for="11" value="714.1936127744511" />
+          <attvalue for="12" value="501" />
+          <attvalue for="13" value="0.06986027944111776" />
+        </attvalues>
+      </edge>
+      <edge source="ts-ticket-service" target="ts-user-service" id="24" weight="0.616945107398568">
+        <attvalues>
+          <attvalue for="11" value="545.6692456479691" />
+          <attvalue for="12" value="517" />
+          <attvalue for="13" value="0.061895551257253385" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-auth-service" id="25" weight="0.6229116945107399">
+        <attvalues>
+          <attvalue for="11" value="696.3659003831417" />
+          <attvalue for="12" value="522" />
+          <attvalue for="13" value="0.08237547892720307" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-config-service" id="26" weight="0.6062052505966588">
+        <attvalues>
+          <attvalue for="11" value="632.2696850393701" />
+          <attvalue for="12" value="508" />
+          <attvalue for="13" value="0.06299212598425197" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-order-service" id="27" weight="0.60381861575179">
+        <attvalues>
+          <attvalue for="11" value="642.0098814229249" />
+          <attvalue for="12" value="506" />
+          <attvalue for="13" value="0.06126482213438735" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-payment-service" id="28" weight="0.639618138424821">
+        <attvalues>
+          <attvalue for="11" value="612.7966417910447" />
+          <attvalue for="12" value="536" />
+          <attvalue for="13" value="0.06529850746268656" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-ticket-service" id="29" weight="0.9081145584725537">
+        <attvalues>
+          <attvalue for="11" value="458.3245729303548" />
+          <attvalue for="12" value="761" />
+          <attvalue for="13" value="0.3587385019710907" />
+        </attvalues>
+      </edge>
+      <edge source="ts-station-service" target="ts-user-service" id="30" weight="0.5656324582338902">
+        <attvalues>
+          <attvalue for="11" value="688.3628691983122" />
+          <attvalue for="12" value="474" />
+          <attvalue for="13" value="0.06540084388185655" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-auth-service" id="31" weight="0.5871121718377088">
+        <attvalues>
+          <attvalue for="11" value="637.9939024390244" />
+          <attvalue for="12" value="492" />
+          <attvalue for="13" value="0.08130081300813008" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-config-service" id="32" weight="0.6264916467780429">
+        <attvalues>
+          <attvalue for="11" value="570.712380952381" />
+          <attvalue for="12" value="525" />
+          <attvalue for="13" value="0.06095238095238095" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-order-service" id="33" weight="0.6264916467780429">
+        <attvalues>
+          <attvalue for="11" value="630.7409523809524" />
+          <attvalue for="12" value="525" />
+          <attvalue for="13" value="0.05904761904761905" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-station-service" id="34" weight="0.6670644391408115">
+        <attvalues>
+          <attvalue for="11" value="596.1466905187835" />
+          <attvalue for="12" value="559" />
+          <attvalue for="13" value="0.06797853309481217" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-ticket-service" id="35" weight="0.6264916467780429">
+        <attvalues>
+          <attvalue for="11" value="675.5447619047619" />
+          <attvalue for="12" value="525" />
+          <attvalue for="13" value="0.05523809523809524" />
+        </attvalues>
+      </edge>
+      <edge source="ts-payment-service" target="ts-user-service" id="36" weight="0.6157517899761337">
+        <attvalues>
+          <attvalue for="11" value="679.3527131782946" />
+          <attvalue for="12" value="516" />
+          <attvalue for="13" value="0.06201550387596899" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-auth-service" id="37" weight="0.6372315035799523">
+        <attvalues>
+          <attvalue for="11" value="624.9157303370787" />
+          <attvalue for="12" value="534" />
+          <attvalue for="13" value="0.0599250936329588" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-order-service" id="38" weight="0.6348448687350835">
+        <attvalues>
+          <attvalue for="11" value="642.3966165413534" />
+          <attvalue for="12" value="532" />
+          <attvalue for="13" value="0.07894736842105263" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-payment-service" id="39" weight="0.5823389021479713">
+        <attvalues>
+          <attvalue for="11" value="598.0102459016393" />
+          <attvalue for="12" value="488" />
+          <attvalue for="13" value="0.07377049180327869" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-station-service" id="40" weight="0.594272076372315">
+        <attvalues>
+          <attvalue for="11" value="621.0943775100402" />
+          <attvalue for="12" value="498" />
+          <attvalue for="13" value="0.0823293172690763" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-ticket-service" id="41" weight="0.5918854415274463">
+        <attvalues>
+          <attvalue for="11" value="645.9677419354839" />
+          <attvalue for="12" value="496" />
+          <attvalue for="13" value="0.0625" />
+        </attvalues>
+      </edge>
+      <edge source="ts-config-service" target="ts-user-service" id="42" weight="0.6348448687350835">
+        <attvalues>
+          <attvalue for="11" value="549.3552631578947" />
+          <attvalue for="12" value="532" />
+          <attvalue for="13" value="0.045112781954887216" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
